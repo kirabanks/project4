@@ -11,3 +11,14 @@ $color-blue: #51ddfc;
 /*              Media Query Variables            */
 /* ============================================= */
 $break: 768px;
+
+/* ============================================= */
+/*                Button Variables               */
+/* ============================================= */
+$btn-background-color: (
+    'default': $color-blue,
+    'error': #e4757a,
+    'info': #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856
+);

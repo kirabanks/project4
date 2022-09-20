@@ -11,6 +11,9 @@
 /*              Media Query Variables            */
 /* ============================================= */
 /* ============================================= */
+/*                Button Variables               */
+/* ============================================= */
+/* ============================================= */
 /* Base Imports */
 /* ============================================= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -455,29 +458,54 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+/* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 19, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+/* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+.default:hover {
+  background-color: #9cecfd;
+}
+
+/* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+/* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+.error:hover {
+  background-color: #f1b5b8;
+}
+
+/* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+/* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+/* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */

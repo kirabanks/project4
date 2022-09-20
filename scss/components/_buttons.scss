@@ -10,24 +10,13 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+}
+
+@each $btn-name, $btn-color in $btn-background-color {
+  .#{$btn-name} {
+    background-color: $btn-color;
+    &:hover {
+      background-color: lighten($btn-color, 15%);
+    }
   }
-  
-  .default {
-    background-color: $color-blue;
-  }
-  
-  .error {
-    background-color: #e4757a;
-  }
-  
-  .info {
-    background-color: #927bc1;
-  }
-  
-  .success {
-    background-color: #63cc82;
-  }
-  
-  .warning {
-    background-color: #fd7856;
-  }
+}
