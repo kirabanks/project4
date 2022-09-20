@@ -17,6 +17,7 @@
     background-color: $btn-color;
     &:hover {
       background-color: lighten($btn-color, 15%);
+      transition: .2s ease-in;
     }
   }
 }

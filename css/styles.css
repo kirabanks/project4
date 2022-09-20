@@ -466,6 +466,7 @@ a {
 /* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .default:hover {
   background-color: #9cecfd;
+  transition: .2s ease-in;
 }
 
 /* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
@@ -476,6 +477,7 @@ a {
 /* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .error:hover {
   background-color: #f1b5b8;
+  transition: .2s ease-in;
 }
 
 /* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
@@ -486,6 +488,7 @@ a {
 /* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .info:hover {
   background-color: #bdafd9;
+  transition: .2s ease-in;
 }
 
 /* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
@@ -496,6 +499,7 @@ a {
 /* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .success:hover {
   background-color: #9ddfb0;
+  transition: .2s ease-in;
 }
 
 /* line 16, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
@@ -506,6 +510,7 @@ a {
 /* line 18, ../../../Desktop/Treehouse/Projects/project4/scss/components/_buttons.scss */
 .warning:hover {
   background-color: #feb4a2;
+  transition: .2s ease-in;
 }
 
 /* ============================================= */
